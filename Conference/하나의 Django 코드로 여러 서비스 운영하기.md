@@ -20,4 +20,6 @@ Django 미들웨어 사용\
   multisite.static_finders.MultiSiteLoader 이용\
 \
 요약:\
-요약 이미지
+요약 이미지\
+
+근데 내 생각에 이거 노드로도 될 것 같아
