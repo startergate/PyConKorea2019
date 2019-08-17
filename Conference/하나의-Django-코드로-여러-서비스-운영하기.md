@@ -16,3 +16,6 @@ Django 미들웨어 사용
 템플릿 불러오기
   multisite.template_loaders.MultiSiteLoader 이용
   
+리소스 불러오기
+  multisite.static_finders.MultiSiteLoader 이용
+  
