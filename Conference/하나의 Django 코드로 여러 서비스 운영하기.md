@@ -3,7 +3,7 @@
 Site 프레임워크
   Django에 내장
   DB 수준에서 사이트 지정
-  웹사이트의 domaim과 name을 지정
+  웹사이트의 domain과 name을 지정
   모델 방식으로 사용
 프레임워크 이미지
 
@@ -19,3 +19,5 @@ Django 미들웨어 사용
 리소스 불러오기
   multisite.static_finders.MultiSiteLoader 이용
   
+요약:
+요약 이미지
