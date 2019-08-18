@@ -42,3 +42,23 @@
 ![libuv 구조]()
     * 각각 다른 스레드에서 여러 이벤트 루프 가능
 ![libuv 이벤트 루프]()
+
+성능 차이
+---
+![폼 파싱]()
+![Redis]()
+
+Asyncio vs uvloop
+---
+* uvloop
+    * Cython과 C로 작성
+    * 파이썬 객체을 C로 구현(?)
+    * 메모리 관리 최적화
+    * 시스템 자원 사용 최적화
+![실 성능]()
+* 실제 성능은 유사
+Django X async
+---
+* Django 3.0에서 ASGI와 함께 동작할 수 있는 완전한 비동기 지원
+* 2019년 12월 배포 예상
+* 동기 방식 코드 그대로 사용 시 SynchronousOnlyOperation 에러
