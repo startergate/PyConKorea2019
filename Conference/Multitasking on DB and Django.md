@@ -1,6 +1,6 @@
 * ACID
     * atomicity
-        *transaction의 모든 작업이 반영되거나 롤백됨
+        * transaction의 모든 작업이 반영되거나 롤백됨
     * consistency 
         * 미리 정해진 규칙에 따라서만 데이터가 수정 
     * isolation 
@@ -29,4 +29,11 @@
 Django는 디비 쿼리가 발생할 때 statement 생성\
 Statement 생성 시마다 commit
 ![nested atomic]()
-
+![beware 1]()
+![beware 2]()
+![beware 3]()
+![beware 4]()
+![usage]()
+너무 많이 사용시 lock timeout
+피하려면 프로세스들이 lock을 들고 있는 시간 최소화
+![beware 5]()
