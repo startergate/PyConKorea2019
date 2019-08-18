@@ -57,6 +57,7 @@ Asyncio vs uvloop
     * 시스템 자원 사용 최적화
 ![실 성능]()
 * 실제 성능은 유사
+
 Django X async
 ---
 * Django 3.0에서 ASGI와 함께 동작할 수 있는 완전한 비동기 지원
