@@ -27,13 +27,13 @@
 ![아이솔레이션 레벨]()
 
 Django는 디비 쿼리가 발생할 때 statement 생성\
-Statement 생성 시마다 commit
+Statement 생성 시마다 commit\
 ![nested atomic]()
 ![beware 1]()
 ![beware 2]()
 ![beware 3]()
 ![beware 4]()
 ![usage]()
-너무 많이 사용시 lock timeout
-피하려면 프로세스들이 lock을 들고 있는 시간 최소화
+너무 많이 사용시 lock timeout\
+피하려면 프로세스들이 lock을 들고 있는 시간 최소화\
 ![beware 5]()
