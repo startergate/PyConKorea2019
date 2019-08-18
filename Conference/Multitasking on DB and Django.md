@@ -37,3 +37,4 @@ Statement 생성 시마다 commit\
 너무 많이 사용시 lock timeout\
 피하려면 프로세스들이 lock을 들고 있는 시간 최소화\
 ![beware 5]()
+![usage code critical section lock time]()
