@@ -1,3 +1,5 @@
+[< Go Back](../index.md)
+
 테스트에 걸리는 시간을 \*92%\* 줄이기 - 구영민 [#](https://www.pycon.kr/program/talk-detail?id=67)
 ---
 

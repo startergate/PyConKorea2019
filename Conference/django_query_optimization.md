@@ -1,3 +1,5 @@
+[< Go Back](../index.md)
+
 실시간 의료 인공지능 데이터 처리를 위한 Django Query Optimization - 윤소영 [#](https://www.pycon.kr/program/talk-detail?id=42)
 ---
 
