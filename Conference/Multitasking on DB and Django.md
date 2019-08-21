@@ -24,17 +24,16 @@
         * 두번의 같은 쿼리가 다른 결과 반환
     * Phantom read
         * 두번의 같은 쿼리가 다른 row 반환
-![아이솔레이션 레벨]()
+![아이솔레이션 레벨](./static/multitasking_on_db_and_django/1.jpg)
 
 Django는 디비 쿼리가 발생할 때 statement 생성\
 Statement 생성 시마다 commit\
-![nested atomic]()
-![beware 1]()
-![beware 2]()
-![beware 3]()
-![beware 4]()
-![usage]()
+![nested atomic](./static/multitasking_on_db_and_django/2.jpg)
+![beware 1](./static/multitasking_on_db_and_django/3.jpg)
+![beware 2](./static/multitasking_on_db_and_django/4.jpg)
+![beware 3](./static/multitasking_on_db_and_django/5.jpg)
+![beware 4](./static/multitasking_on_db_and_django/6.jpg)
+![usage](./static/multitasking_on_db_and_django/7.jpg)
 너무 많이 사용시 lock timeout\
-피하려면 프로세스들이 lock을 들고 있는 시간 최소화\
-![beware 5]()
-![usage code critical section lock time]()
+피하려면 프로세스들이 lock을 들고 있는 시간 최소화![beware 5](./static/multitasking_on_db_and_django/8.jpg)
+![usage code critical section lock time](./static/multitasking_on_db_and_django/9.jpg)
