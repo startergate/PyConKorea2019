@@ -5,7 +5,7 @@ Site 프레임워크
 * DB 수준에서 사이트 지정
 * 웹사이트의 domain과 name을 지정
 * 모델 방식으로 사용
-프레임워크 이미지\
+![](./static/run_multiple_in_one_django/1.jpg)
 
 Django 미들웨어 사용\
   __call__이라는 메소드 정의 필요\
@@ -20,6 +20,6 @@ Django 미들웨어 사용\
   multisite.static_finders.MultiSiteLoader 이용\
 \
 요약:\
-요약 이미지\
+![](./static/run_multiple_in_one_django/2.jpg)
 
 근데 내 생각에 이거 노드로도 될 것 같아
