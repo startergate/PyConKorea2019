@@ -1,3 +1,6 @@
+하나의 Django 코드로 여러 사이트 운영하기 - 박종현 [#](https://www.pycon.kr/program/talk-detail?id=135)
+---
+
 기본 뼈대는 동일하지만 다른 내용의 서비스가 필요한 경우\
 \
 Site 프레임워크

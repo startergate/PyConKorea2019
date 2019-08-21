@@ -1,3 +1,6 @@
+실시간 의료 인공지능 데이터 처리를 위한 Django Query Optimization - 윤소영 [#](https://www.pycon.kr/program/talk-detail?id=42)
+---
+
 ![서비스 모델]()
 * 문제점
     * 많은 데이터가 들어오는데 데이터 업데이트가 너무 느림\
